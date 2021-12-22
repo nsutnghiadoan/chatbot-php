@@ -7,7 +7,6 @@
     if($conn){
         mysqLi_query($conn , "SETNAME 'utf8' ");
         echo "thanh cong";
-        
     }else{
         echo "loi ket noi";
     }
